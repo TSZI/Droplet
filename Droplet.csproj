@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>3934b38b-4662-4211-abb3-e854850ae1e3</UserSecretsId>
+		<InvariantGlobalization>true</InvariantGlobalization>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MailKit" Version="4.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.13" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.20" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.20">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+		<PackageReference Include="MimeKit" Version="4.1.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
+	</ItemGroup>
+
+</Project>
